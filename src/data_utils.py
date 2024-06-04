@@ -3,11 +3,11 @@ import warnings
 import json
 import numpy as np
 import pandas as pd
-from pandas.core.common import SettingWithCopyWarning
+#from pandas.core.common import SettingWithCopyWarning
 from tqdm import tqdm
 from collections import defaultdict
 # import socceraction.spadl as spadl
-warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+#warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 
 def load_wyscout_dataset(dataset_name='Italy'):

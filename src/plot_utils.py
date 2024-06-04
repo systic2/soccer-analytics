@@ -2,14 +2,14 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 import warnings
-from pandas.core.common import SettingWithCopyWarning
+#from pandas.core.common import SettingWithCopyWarning
 import matplotlib.pyplot as plt 
 from matplotlib.patches import Ellipse
 from matplotlib.ticker import FormatStrFormatter
 import seaborn as sns
 # from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 # import plotly.graph_objs as go
-warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
+#warnings.simplefilter(action="ignore", category=SettingWithCopyWarning)
 
 
 def pitch():
